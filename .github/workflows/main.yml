@@ -24,4 +24,4 @@ jobs:
               run: |
                   node jd_crazy_joy_coin.js
               env:
-                  JD_COOKIE: pt_key=AAJgMPeWADBvUGxu4ARuepZWNn8GyztVce8Rl48HoZarzgzb4_Aa4rW3mtvHAfAdpp9Z41v4VUg;pt_pin=%E5%91%A8%E9%BD%90%E5%86%9B;
+                  JD_COOKIE: pt_key=AAJgMPeWADBvUGxu4ARuepZWNn8GyztVce8Rl48HoZarzgzb4_Aa4rW3mtvHAfAdpp9Z41v4VUg;pt_pin=%E5%91%A8%E9%BD%90%E5%86%9B
