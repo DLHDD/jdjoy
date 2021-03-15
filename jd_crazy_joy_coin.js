@@ -807,6 +807,10 @@ function TotalBean() {
               $.isLogin = false; //cookie过期
               return
             }
+            if (data['retcode'] === 101) {
+               //频率受限制
+              return
+            }
             $.nickName = data['base'].nickname;
           } else {
             console.log(`京东服务器返回空数据`)
